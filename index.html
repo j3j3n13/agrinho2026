@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Hortaliças Ecológicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho 2026</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sustentabilidade</a>
+            <a href="#praticas">Práticas</a>
+            <a href="#interativo">Simulador</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>O equilíbrio perfeito entre a produção de hortaliças e o respeito ao meio ambiente.</p>
+        <a href="#sobre" class="btn">Saiba Mais</a>
+    </section>
+
+    <section id="sobre" class="conteudo">
+        <h2>Hortaliças Ecológicas: O Caminho para o Equilíbrio</h2>
+        <p>Produzir hortaliças de forma ecológica significa alimentar a população sem esgotar os recursos do planeta. Usamos a tecnologia e a natureza a favor da produtividade.</p>
+    </section>
+
+    <section id="interativo" class="simulador">
+        <h2>Simulador de Impacto Ecológico</h2>
+        <p>Escolha uma prática para a sua horta e veja o benefício ambiental:</p>
+        
+        <div class="botoes-simulador">
+            <button onclick="simular('agrotoxico')">Uso de Agrotóxicos</button>
+            <button onclick="simular('organico')">Controle Biológico</button>
+            <button onclick="simular('gotejamento')">Irrigação por Gotejamento</button>
+        </div>
+
+        <div id="resultado" class="resultado-box">
+            Clique em uma opção acima para ver o resultado no futuro.
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para o Concurso Agrinho</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
